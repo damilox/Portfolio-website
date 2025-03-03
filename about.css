@@ -9,27 +9,40 @@
 body{
     background: rgb(1, 1, 46);
     color: white;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 30000000px;
 }
 #header{
+    margin-top: 20px;
+   
+
+}
+.logo{
+margin-right: 200px;
+}
+.nav-bar{
     display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+.menus{
+    display: flex;
+
 }
 .menus ul{
     display: flex;
-    color: white;
     align-items: center;
     justify-content: space-between;
-    margin-top: 30px;
 }
 .menus ul li{
-    /* list-style: none; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 18px;
     color: white;
     font-size: 18px;
     font-weight: 200;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 20px;
-    
 }
 .menus ul li a{
     list-style: none;
@@ -54,3 +67,25 @@ body{
 .menus ul li a:hover::after{
     width: 100%;
 }
+
+/* -----Learn About Me Section------ */
+#about-me{
+
+}
+#about-me h2{
+    color: aqua;
+    font-size: 50px;
+    font-weight: 300;
+}
+.about-dammy{
+
+}
+.about-dammy div img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+    
+
+}
+.about-dammy div 
